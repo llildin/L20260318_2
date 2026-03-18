@@ -5,9 +5,9 @@ public:
 	UGoalPoint();
 	~UGoalPoint();
 
-	int UGoalPointX;
-	int UGoalPointY;
+	int X;
+	int Y;
 
-	void GameEnd();
+	void GameEnd(int PlayerX, int PlayerY);
 };
 

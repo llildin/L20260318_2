@@ -5,10 +5,10 @@ public:
 	UMonster();
 	~UMonster();
 
-	int MonsterX;
-	int MonsterY;
-	char* MonsterMoveDirection;
+	int X;
+	int Y;
+	char* MoveDirection;
 
-	void MonsterMove();
+	void Move();
 };
 

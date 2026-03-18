@@ -2,18 +2,18 @@
 
 UMonster::UMonster()
 {
-	MonsterMoveDirection = new char[4];
+	MoveDirection = new char[4];
 
-	MonsterMoveDirection[0] = 'w';
-	MonsterMoveDirection[1] = 's';
-	MonsterMoveDirection[2] = 'a';
-	MonsterMoveDirection[3] = 'd';
+	MoveDirection[0] = 'w';
+	MoveDirection[1] = 's';
+	MoveDirection[2] = 'a';
+	MoveDirection[3] = 'd';
 }
 
 UMonster::~UMonster()
 {
 }
 
-void UMonster::MonsterMove()
+void UMonster::Move()
 {
 }

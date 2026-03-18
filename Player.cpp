@@ -2,18 +2,18 @@
 
 UPlayer::UPlayer()
 {
-	PlayerMoveDirection = new char[4];
+	MoveDirection = new char[4];
 
-	PlayerMoveDirection[0] = 'w';
-	PlayerMoveDirection[1] = 's';
-	PlayerMoveDirection[2] = 'a';
-	PlayerMoveDirection[3] = 'd';
+	MoveDirection[0] = 'w';
+	MoveDirection[1] = 's';
+	MoveDirection[2] = 'a';
+	MoveDirection[3] = 'd';
 }
 
 UPlayer::~UPlayer()
 {
 }
 
-void UPlayer::PlayerMove()
+void UPlayer::Move()
 {
 }

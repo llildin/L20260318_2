@@ -5,10 +5,10 @@ public:
 	UPlayer();
 	~UPlayer();
 
-	int PlayerX;
-	int PlayerY;
-	char* PlayerMoveDirection;
+	int X;
+	int Y;
+	char* MoveDirection;
 
-	void PlayerMove();
+	void Move();
 };
 
